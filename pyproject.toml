@@ -1,0 +1,19 @@
+[project]
+name = "flask-app"
+version = "0.1.0"
+description = "Flask application with authentication"
+requires-python = ">=3.8"
+dependencies = [
+    "flask>=3.0.0",
+    "flask-login>=0.6.3",
+    "flask-sqlalchemy>=3.1.0",
+    "flask-migrate>=4.0.5",
+    "flask-wtf>=1.2.1",
+    "wtforms>=3.1.0",
+    "werkzeug>=3.0.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
